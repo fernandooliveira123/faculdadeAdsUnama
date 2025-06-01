@@ -1,4 +1,4 @@
-# Aluno: Fernando Augusto Conceição de Oliveira
+# Aluno: Fernando Augusto 
 #Matrícula:04183227
 #Curso ADS: Manhã
 #turma: A
