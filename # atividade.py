@@ -1,6 +1,6 @@
-# Aluno: Fernando Augusto Conceição de Oliveira
-#Matrícula:04183227
-#Curso ADS: Manhã
+# Aluno: Fernando Augusto 
+#Matrícula:
+#Curso : Manhã
 #turma: A
 
 # 2. Crie um programa que solicite dois números ao usuário, some-os e exiba o resultado.
