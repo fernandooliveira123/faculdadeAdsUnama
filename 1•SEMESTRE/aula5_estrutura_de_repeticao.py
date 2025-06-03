@@ -13,3 +13,4 @@ for i in range(1,11):
 media = soma / 10
 print (f"sua média é, {media}")
 
+#teste computador
