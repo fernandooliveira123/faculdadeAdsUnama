@@ -14,3 +14,4 @@ media = soma / 10
 print (f"sua média é, {media}")
 
 #teste computador
+##teste tablet()
