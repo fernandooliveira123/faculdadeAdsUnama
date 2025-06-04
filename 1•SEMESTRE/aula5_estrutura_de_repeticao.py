@@ -6,12 +6,19 @@
 
 #Crie um programa que receba 10 notas de alunos e calcule a média aritmética delas
 
+# soma = 0 
+# for i in range(1,11):
+#     nota = float(input("Insira sua nota: "))
+#     soma += nota 
+# media = soma / 10
+# print (f"sua média é, {media}")
+
+#teste computador
+##teste tablet()
+
 soma = 0 
 for i in range(1,11):
     nota = float(input("Insira sua nota: "))
     soma += nota 
 media = soma / 10
 print (f"sua média é, {media}")
-
-#teste computador
-##teste tablet()
