@@ -59,9 +59,22 @@
 
 #OPERADORES LÓGICOS : AND (E), OR (OU), NOT(NÃO/ NEGAÇÃO)
 
-num =  int(input("Insira um valor: "))
+# num =  int(input("Insira um valor: "))
 
-if num >=0 and num <=10:
-    print("Numero dentro da faixa")
-else:
-    print("Numero fora da faixa")
+# if num >=0 and num <=10:
+#     print("Numero dentro da faixa")
+# else:
+#     print("Numero fora da faixa")
+
+# num = int(input("insira um valor: "))
+# if num < 0 or num >10:
+#     print("Numero fora da faixa")
+# else:
+#     print("Numero dentro da faixa")
+
+#OPERADOR NOT (NÃO)
+
+num = int(input("Insira um número: "))
+
+if not num >= 30:
+    print("Numero é menor do que 30")
