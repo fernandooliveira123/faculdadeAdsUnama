@@ -29,8 +29,8 @@
 
 #Escreva um programa que peça ao usuário para digitar uma senha. Se a senha digitada for "1234", exiba "Acesso permitido.", senão, exiba "Acesso negado.".
 
-key = int(input("Olá, digite sua senha: "))
-if key == 1234:
-    print("Acesso liberado")
-else: 
-    print("Acesso negado!")
+# key = int(input("Olá, digite sua senha: "))
+# if key == 1234:
+#     print("Acesso liberado")
+# else: 
+#     print("Acesso negado!")
