@@ -5,10 +5,10 @@
 
 # 2. Crie um programa que solicite dois números ao usuário, some-os e exiba o resultado.
 
-numero1 = float(input("Insira um numero"))
-numero2 =float(input("Insira mais um numero"))
-resultado = numero1 + numero2
-print("Seu numero 1 com o numero 2 somados gera o resultado", resultado)
+# numero1 = float(input("Insira um numero"))
+# numero2 =float(input("Insira mais um numero"))
+# resultado = numero1 + numero2
+# print("Seu numero 1 com o numero 2 somados gera o resultado", resultado)
 
 # 4. Escreva um programa que leia um número e exiba o seu dobro e triplo
 
