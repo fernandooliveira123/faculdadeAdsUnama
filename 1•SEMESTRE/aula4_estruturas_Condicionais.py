@@ -56,3 +56,12 @@
 #     print("Valor ingresso R$15,00")
 # else:
 #     print("Valor ingresso R$20,00")
+
+#OPERADORES LÓGICOS : AND (E), OR (OU), NOT(NÃO/ NEGAÇÃO)
+
+num =  int(input("Insira um valor: "))
+
+if num >=0 and num <=10:
+    print("Numero dentro da faixa")
+else:
+    print("Numero fora da faixa")
