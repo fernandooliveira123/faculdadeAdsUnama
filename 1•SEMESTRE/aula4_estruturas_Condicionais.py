@@ -34,3 +34,25 @@
 #     print("Acesso liberado")
 # else: 
 #     print("Acesso negado!")
+
+#4. Escreva um programa que peça ao usuário sua idade e exiba: a. "Criança" se for menor que 12 anos / b. "Adolescente" se for entre 12 e 17 anos / c. "Adulto" se for 18 anos ou mais
+
+# age = int(input("Qual sua idade? "))
+
+# if age < 12:
+#     print("Criança")
+# elif age >=12 and age <=17:
+#     print("Adolescente")
+# else:
+#     print("Adulto")
+
+#5. Peça ao usuário sua idade e exiba o preço do ingresso: a. Menos de 12 anos: R$10,00 / b. Entre 12 e 17 anos: R$15,00 / c. 18 anos ou mais: R$20,00
+
+# age = int(input("Ola, qual sua idade? "))
+
+# if age < 12:
+#     print("Valor ingresso R$10,00")
+# elif age >= 12 and age <=17:
+#     print("Valor ingresso R$15,00")
+# else:
+#     print("Valor ingresso R$20,00")
