@@ -98,7 +98,7 @@
 user_age = int(input("insira sua idade: "))
 vip = input("vip? S ou N ?: ")
 
-if user_age  >= 18 or vip == S:
+if user_age  >= 18 or vip == "S":
     print("Entrada permitida")
 else:
     print("Entrada nao permitida")
