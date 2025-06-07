@@ -95,10 +95,58 @@
 # a. A idade for maior ou igual a 18 ou se o usuário tiver um 
 # ingresso VIP.
 
-user_age = int(input("insira sua idade: "))
-vip = input("vip? S ou N ?: ")
+# user_age = int(input("insira sua idade: "))
+# vip = input("vip? S ou N ?: ")
 
-if user_age  >= 18 or vip == "S":
-    print("Entrada permitida")
+# if user_age  >= 18 or vip == "S":
+#     print("Entrada permitida")
+# else:
+#     print("Entrada nao permitida")
+
+# 8. Crie um programa que simule um login. O
+# sistema deve pedir um nome de usuário e uma
+# senha.
+# a. O login é permitido se o usuário for "admin" e a
+# senha for "1234", ou se o usuário for "convidado" e
+# a senha for "guest".
+# b. Caso contrário, exiba "Acesso negado"
+
+# username = input("Qual seu usuário: ")
+# key_login = input("Qual sua senha?: ")
+
+# if username == "adm" and key_login == 1234:
+#     print("Acesso liberado")
+
+# elif username ==  "convidado" and key_login == "guest":
+#     print("Acesso liberado")
+# else:
+#     print("Acesso negado!")
+#-----------COM FOR---------------------------------------------- 
+
+# username = input("Qual seu usuário: ")
+# key_login = input("Qual sua senha?: ")
+
+# if username == "adm" or username == "convidado" and key_login == 1234 or key_login == "guest":
+#     print(f"{username} ACESSO LIBERADO!")
+# else:
+#     print(f"{username} seu foi Acesso negado")
+
+#---------------------------------------------------------------
+# 9. Um mercado oferece descontos de acordo com a quantidade de produtos comprados:
+    # a. Se comprar 10 ou mais itens e o total for maior que R$
+    # 100,00, o desconto é de 15%.
+    # b. Se comprar pelo menos 5 itens ou o total for maior que R$
+    # 50,00, o desconto é de 10%.
+    # c. Caso contrário, não há desconto.
+# Peça ao usuário a quantidade de itens e o valor total da
+# compra e informe o valor final com desconto aplicado.
+
+qtd_itens = int(input("Qual a quantidade de items você adquiriu? "))
+valor_total = float(input("Qual valor da sua compra? "))
+
+if qtd_itens >= 10 and valor_total >= 100:
+    print("Seu desconto é de 15%")
+elif qtd_itens >= 5 or valor_total >= 50:
+    print("Seu desconto é de 10%")
 else:
-    print("Entrada nao permitida")
+    print("Não há descontos")
