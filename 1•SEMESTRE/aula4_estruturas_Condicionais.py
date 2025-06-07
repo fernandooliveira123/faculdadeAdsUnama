@@ -74,7 +74,31 @@
 
 #OPERADOR NOT (NÃO)
 
-num = int(input("Insira um número: "))
+# num = int(input("Insira um número: "))
 
-if not num >= 30:
-    print("Numero é menor do que 30")
+# if not num >= 30:
+#     print("Numero é menor do que 30")
+
+# 6. Escreva um programa que peça ao usuário um ano  e determine se ele é bissexto.
+# a. Um ano é bissexto se for divisível por 4, mas não por 
+# 100, a menos que seja divisível por 400.
+
+# ano = int(input(" insira um ano: "))
+
+# if (ano % 4 == 0 and ano %100 !=0) or (ano %100 ==0):
+#     print(f"o ano {ano} é bisexfo")
+# else:
+#     print(f"nao {ano} e bisexto")
+
+# 7. Peça ao usuário que digite sua idade e se tem um 
+# ingresso VIP (S ou N). A entrada é permitida se:
+# a. A idade for maior ou igual a 18 ou se o usuário tiver um 
+# ingresso VIP.
+
+user_age = int(input("insira sua idade: "))
+vip = input("vip? S ou N ?": )
+
+if user_age  >= 18 or vip == S:
+    print("Entrada permitida")
+else:
+    print("Entrada nao permitida")
