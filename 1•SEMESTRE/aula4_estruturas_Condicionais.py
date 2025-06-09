@@ -141,12 +141,54 @@
 # Peça ao usuário a quantidade de itens e o valor total da
 # compra e informe o valor final com desconto aplicado.
 
-qtd_itens = int(input("Qual a quantidade de items você adquiriu? "))
-valor_total = float(input("Qual valor da sua compra? "))
+# qtd_itens = int(input("Qual a quantidade de items você adquiriu? "))
+# valor_total = float(input("Qual valor da sua compra? "))
 
-if qtd_itens >= 10 and valor_total >= 100:
-    print("Seu desconto é de 15%")
-elif qtd_itens >= 5 or valor_total >= 50:
-    print("Seu desconto é de 10%")
+# if qtd_itens >= 10 and valor_total >= 100:
+#     print("Seu desconto é de 15%")
+# elif qtd_itens >= 5 or valor_total >= 50:
+#     print("Seu desconto é de 10%")
+# else:
+#     print("Não há descontos")
+
+#------------------------------------------------------
+# Verificação de número par ou ímpar e faixa Enunciado: Peça ao usuário um número inteiro. O programa deve informar:
+# Se o número é par ou ímpar E se ele está dentro da faixa de 1 a 100
+
+# num = int(input("Insira um numero: "))
+
+# if num % 2 == 0 and num >= 0 or num <=100:
+#     print("Este valor é par e está faixa de 1-100")
+# else:
+#     print("Este valor é impar, e está acima do valor 100")
+
+#---------------------------------------------------------
+
+# Classificação de nota com validação Enunciado: Peça ao usuário que insira uma nota de 0 a 10. Com base no valor:
+# Se for menor que 6 → “Reprovado” De 6 a 7.9 → “Recuperação” De 8 a 10 → “Aprovado” Se for fora da faixa, exiba “Nota inválida”
+
+# nota = float(input("insira uma nota de 0-10: "))
+
+# if nota < 6:
+#     print("Reprovado")
+# elif nota >= 6 and nota <=7.9:
+#     print("Recuperação")
+# else:
+#     print("Aprovado")
+
+#--------------------------------------------------------
+
+# Acesso ao evento com múltiplas regras Enunciado: Crie um programa que pergunte:
+# A idade do usuário Se tem ingresso VIP (S ou N)
+# Se está acompanhado de um responsável (S ou N)
+# A entrada será permitida se: A idade for maior ou igual a 18 OU Tiver ingresso VIP OU
+# For menor de idade, mas estiver com responsável
+
+age = int(input("Qual sua idade? "))
+ingresso = input("Tem ingresso Vip? (S) ou (N)? ")
+acompanhado = input("Está acompanhado de algum responsável? (S) ou (N) ")
+
+if age >= 18 and ingresso == "S" or acompanhado == "S":
+    print("Entrada permitida")
 else:
-    print("Não há descontos")
+    print("Acesso negado")
