@@ -21,6 +21,16 @@ compras = ["café","leite","pão"]
 #     print(compras[i])
 
 # IMPRIMINDO O INDICE E O VALOR DA LISTA: ENUMERATE 
-for i, item in enumerate (compras):
-    print(f"Item {i}: {item}")
-    
+# for i, item in enumerate (compras):
+#     print(f"Item {i}: {item}")
+
+# Para uma lista contendo 5 números inteiros, formular um algoritmo que determine o maior 
+# elemento desta lista
+
+numeros = [10,45,20,62]
+
+maior = numeros[0]
+for numero in numeros:
+    if numero > maior:
+       maior = numero
+       print(maior)
