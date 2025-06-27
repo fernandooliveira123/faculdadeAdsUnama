@@ -27,10 +27,28 @@ compras = ["café","leite","pão"]
 # Para uma lista contendo 5 números inteiros, formular um algoritmo que determine o maior 
 # elemento desta lista
 
-numeros = [10,45,20,62]
+# numeros = [10,45,20,62]
 
-maior = numeros[0]
-for numero in numeros:
-    if numero > maior:
-       maior = numero
-       print(maior)
+# maior = numeros[0]
+# for numero in numeros:
+#     if numero > maior:
+#        maior = numero
+#        print(maior)
+
+# Leia as notas de uma turma de cinco estudantes e depois imprima as notas que são maiores do que a média da turma
+
+notas = [] # Lista para armazenar as 5 notas
+
+# Lê as 5 notas do usuário
+for i in range(5):
+    nota = float(input(f"Insira Sua nota {i+1}: "))
+    notas.append(nota)
+#calcular média
+media = sum (notas) / len(notas)
+#imprimindo notas acima da média
+print(f"Média da turma {media}")
+print("Notas acima da média")
+for nota in notas:
+    if nota > media:
+        print(nota)
+
