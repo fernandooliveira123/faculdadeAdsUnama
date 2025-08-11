@@ -1,4 +1,4 @@
-import java.util.Scanner;
+9import java.util.Scanner;
 public class Main
 {
     public static void main (String[] args) {
@@ -81,3 +81,23 @@ public class Main
     }
 }
 
+----
+import java.util.Scanner;
+public class Main
+{
+    public static void main (String[] args) {
+      int numNegativos = 0;
+        Scanner ler = new Scanner(System.in);
+        
+        for (int i=1; i<= 5; i++) { 
+        System.out.println("Digite um valor: ");
+        int a = ler.next.Int();
+        
+        if(a < 0) {
+            System.out.printf("%d numero negativos", a);
+            numNegativos +=1;
+        }
+            System.out.printf("%d numero negativos", numNegativos);
+        }
+    }  
+}
