@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Formulario aula 13 de agosto- Desenvolvimento Web</title>
+  
+  </head>
+  <body>
+    
+    <!--Formulario-->
+    
+    <form>
+      
+    Primeiro Nome <input type="text" name= "primeiro nome"/><br />
+    Ultimo Nome <input type="text" name= "ultimo nome"/> <br />
+    
+    Senha <input type="password" name="" id="" value="" /> <br />
+    
+    <input type="radio" name="genero" id="" value="M" /> Masculino
+    <input type="radio" name="genero" id="" value="F" /> Feminino <br />
+    
+    
+     <input type="checkbox" name="veiculo" id="" value="Bicicleta" /> Eu tenho uma Bicicleta <br />
+     <input type="checkbox" name="veiculo" id="" value="Carro" /> Eu tenho um carro <br />
+    <input type="checkbox" name="veiculo" id="" value="Barco" /> Eu tenho um barco <br />
+    
+    <select name="UNIVERSIDADES" id="">
+        <option value="UFRA">UFRA</option>
+        <option value="UFPA">UFPA</option>
+        <option value="UEPA">UEPA</option>
+        <option value="UNAMA">UNAMA</option>
+    </select>
+    
+    
+    <button type="submit"> Enviar</button> <br />
+    
+    
+    
+    <textarea name="" id= r10ws="10" cols="30"> Html é uma linguagem de marcacao</textarea>
+    
+    
+    <fieldset>
+        <legend>Informacoes pessoais</legend>
+        <p>Nome <input type="text" name="text" placeholder="Primeiro nome" size="30"  /></p>
+        <p>Email <input type="text" name="text"  size="30"  /></p>
+        <p>Idade <input type="text" name="text" size="5"  /></p>
+    </fieldset>
+    
+    Quantidade (Entre 1-5 ) <input type="number" name="qtd" min="1" max="5" /> <br />
+    
+    Aniversario: <input type="date" name="nasc" id="" value="" /> <br />
+    
+    Nome <input type="tett" name="nome" placeholder="Nome" id="" value="" /> <br />
+    Sobre Nome<input type="tett" name="Sobrenome" placeholder="Sobre Nome" id="" value="" /> <br />
+    
+    </form>
+
+  </body>
+</html>
