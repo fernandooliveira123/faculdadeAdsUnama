@@ -1,15 +1,15 @@
-public class ProjetoAluno {
+public class project_aluno {
     public static void main(String[] args) throws Exception {
         Aluno aluno1 = new Aluno();
         Aluno aluno2 = new Aluno();
 
         aluno1.matricula = "0428377";
-        aluno1.nome = "Victoria";
+        aluno1.nome = "Oliveira";
         aluno1.notaAv1 = 6.0;
         aluno1.notaAv2 = 9.5;
 
         aluno2.matricula = "4321";
-        aluno2.nome = "Alexandre";
+        aluno2.nome = "Samuel";
         aluno2.notaAv1 = 3.0;
         aluno2.notaAv2 = 1.5;
 
