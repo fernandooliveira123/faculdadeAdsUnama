@@ -5,6 +5,7 @@ String nome = "Fernando";
     float nota = 8.5f;    
 
     System.out.println(nome);
+    System.out.println(idade);
         
     }
 }
