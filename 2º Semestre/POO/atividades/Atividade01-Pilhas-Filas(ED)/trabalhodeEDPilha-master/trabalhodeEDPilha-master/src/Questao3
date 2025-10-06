@@ -1,0 +1,1 @@
+prioridade e pela estrutura de dados utilizada porque A pilha garante que tarefas urgentes sejam resolvidas imediatamente, com prioridade sobre as demais. Como ela é LIFO, a última tarefa prioritária será resolvida antes das outras. Já a fila mantém a ordem de chegada para tarefas comuns, garantindo justiça na execução.
